@@ -9,19 +9,27 @@
 /* Begin PBXBuildFile section */
 		84A40CD820862486001DE3AC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A40CD720862486001DE3AC /* AppDelegate.swift */; };
 		84A40CDA20862486001DE3AC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A40CD920862486001DE3AC /* ViewController.swift */; };
-		84A40CDD20862486001DE3AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A40CDB20862486001DE3AC /* Main.storyboard */; };
 		84A40CDF20862489001DE3AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84A40CDE20862489001DE3AC /* Assets.xcassets */; };
 		84A40CE220862489001DE3AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84A40CE020862489001DE3AC /* LaunchScreen.storyboard */; };
+		84A40CEA20862B7E001DE3AC /* CurrencyAttributes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A40CE920862B7E001DE3AC /* CurrencyAttributes.swift */; };
+		84A40CEC20862EE1001DE3AC /* CellCurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A40CEB20862EE1001DE3AC /* CellCurrency.swift */; };
+		84A40D11208686D7001DE3AC /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84A40D10208686D7001DE3AC /* Alert.swift */; };
+		B0E949CFF72468EE2BDD222D /* Pods_ExchangeRateApplication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3AF4E423CB045BC995A52AD /* Pods_ExchangeRateApplication.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84A40CD420862486001DE3AC /* ExchangeRateApplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRateApplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84A40CD720862486001DE3AC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84A40CD920862486001DE3AC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		84A40CDC20862486001DE3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84A40CDE20862489001DE3AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84A40CE120862489001DE3AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84A40CE320862489001DE3AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84A40CE920862B7E001DE3AC /* CurrencyAttributes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyAttributes.swift; sourceTree = "<group>"; };
+		84A40CEB20862EE1001DE3AC /* CellCurrency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellCurrency.swift; sourceTree = "<group>"; };
+		84A40D10208686D7001DE3AC /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		946CFFB9374EDFC2471F80A2 /* Pods-ExchangeRateApplication.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRateApplication.release.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRateApplication/Pods-ExchangeRateApplication.release.xcconfig"; sourceTree = "<group>"; };
+		A5A0CB842970A1BBC4B8163E /* Pods-ExchangeRateApplication.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRateApplication.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRateApplication/Pods-ExchangeRateApplication.debug.xcconfig"; sourceTree = "<group>"; };
+		C3AF4E423CB045BC995A52AD /* Pods_ExchangeRateApplication.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRateApplication.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +37,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0E949CFF72468EE2BDD222D /* Pods_ExchangeRateApplication.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1280A51DD78B6B4BA33E8E35 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A5A0CB842970A1BBC4B8163E /* Pods-ExchangeRateApplication.debug.xcconfig */,
+				946CFFB9374EDFC2471F80A2 /* Pods-ExchangeRateApplication.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		84A40CCB20862486001DE3AC = {
 			isa = PBXGroup;
 			children = (
 				84A40CD620862486001DE3AC /* ExchangeRateApplication */,
 				84A40CD520862486001DE3AC /* Products */,
+				1280A51DD78B6B4BA33E8E35 /* Pods */,
+				CE839C09F2AE8C1B7DB78D43 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +75,23 @@
 			isa = PBXGroup;
 			children = (
 				84A40CD720862486001DE3AC /* AppDelegate.swift */,
+				84A40D10208686D7001DE3AC /* Alert.swift */,
 				84A40CD920862486001DE3AC /* ViewController.swift */,
-				84A40CDB20862486001DE3AC /* Main.storyboard */,
+				84A40CEB20862EE1001DE3AC /* CellCurrency.swift */,
+				84A40CE920862B7E001DE3AC /* CurrencyAttributes.swift */,
 				84A40CDE20862489001DE3AC /* Assets.xcassets */,
 				84A40CE020862489001DE3AC /* LaunchScreen.storyboard */,
 				84A40CE320862489001DE3AC /* Info.plist */,
 			);
 			path = ExchangeRateApplication;
+			sourceTree = "<group>";
+		};
+		CE839C09F2AE8C1B7DB78D43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C3AF4E423CB045BC995A52AD /* Pods_ExchangeRateApplication.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84A40CE620862489001DE3AC /* Build configuration list for PBXNativeTarget "ExchangeRateApplication" */;
 			buildPhases = (
+				0B3BE473BB37FAF30CD275AF /* [CP] Check Pods Manifest.lock */,
 				84A40CD020862486001DE3AC /* Sources */,
 				84A40CD120862486001DE3AC /* Frameworks */,
 				84A40CD220862486001DE3AC /* Resources */,
+				6D4872A15F7540E66F1CEF39 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,18 +156,59 @@
 			files = (
 				84A40CE220862489001DE3AC /* LaunchScreen.storyboard in Resources */,
 				84A40CDF20862489001DE3AC /* Assets.xcassets in Resources */,
-				84A40CDD20862486001DE3AC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0B3BE473BB37FAF30CD275AF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ExchangeRateApplication-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6D4872A15F7540E66F1CEF39 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRateApplication/Pods-ExchangeRateApplication-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ReachabilitySwift/Reachability.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ExchangeRateApplication/Pods-ExchangeRateApplication-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84A40CD020862486001DE3AC /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84A40CEC20862EE1001DE3AC /* CellCurrency.swift in Sources */,
 				84A40CDA20862486001DE3AC /* ViewController.swift in Sources */,
+				84A40CEA20862B7E001DE3AC /* CurrencyAttributes.swift in Sources */,
+				84A40D11208686D7001DE3AC /* Alert.swift in Sources */,
 				84A40CD820862486001DE3AC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -143,14 +216,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		84A40CDB20862486001DE3AC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84A40CDC20862486001DE3AC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84A40CE020862489001DE3AC /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -278,6 +343,7 @@
 		};
 		84A40CE720862489001DE3AC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5A0CB842970A1BBC4B8163E /* Pods-ExchangeRateApplication.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -295,6 +361,7 @@
 		};
 		84A40CE820862489001DE3AC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 946CFFB9374EDFC2471F80A2 /* Pods-ExchangeRateApplication.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
