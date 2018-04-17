@@ -52,16 +52,4 @@ class CellCurrency: UITableViewCell {
         labelWithScale.heightAnchor.constraint(equalTo: labelWithRate.heightAnchor).isActive = true
         labelWithScale.topAnchor.constraint(equalTo: labelWithRate.bottomAnchor).isActive = true
     }
-
-//    override func awakeFromNib() {
-//        super.awakeFromNib()
-//        // Initialization code
-//    }
-//
-//    override func setSelected(_ selected: Bool, animated: Bool) {
-//        super.setSelected(selected, animated: animated)
-//
-//        // Configure the view for the selected state
-//    }
-
 }
